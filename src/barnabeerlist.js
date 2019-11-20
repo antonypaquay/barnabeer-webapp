@@ -4,7 +4,7 @@ export let barnabeerList = {
     beer_cl: "33cl",
     beer_pourcent: "6%",
     beer_type: "Abbaye",
-    beer_price: "4,00 €"
+    beer_price: "4,00 €",
   },
   beer2: {
     beer_name: "Leffe",
