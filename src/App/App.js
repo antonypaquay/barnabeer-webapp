@@ -6,19 +6,20 @@ import { barnabeerList } from "../barnabeerlist";
 
 console.log(barnabeerList);
 
-
-
 class App extends React.Component {
-
-
-
   state = {
-    yolo: 'yolo'
-  }
-  
+    beers: barnabeerList
+  };
+
   render() {
-    const beers = Object.keys(barnabeerList).map((key, index) => {
-      const { beer_name, beer_cl, beer_pourcent, beer_type, beer_price } = barnabeerList[key];
+    const beers = Object.keys(this.state.beers).map((key, index) => {
+      const {
+        beer_name,
+        beer_cl,
+        beer_pourcent,
+        beer_type,
+        beer_price
+      } = this.state.beers[key];
       return (
         <Beer
           key={key}
