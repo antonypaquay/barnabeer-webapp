@@ -100,9 +100,10 @@
   transform: rotate(45deg);
 }
 
-.beers__list__el--tasted {
+.beers__list__el--active {
   text-decoration: line-through;
+  background-color: oranges;
   .container__check input:checked ~ .checkmark {
-    background-color: #2196f3 !important;
+    background-color: #2196f3;
   }
 }

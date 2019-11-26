@@ -5,14 +5,8 @@ import { barnabeerList } from "./barnabeerlist";
 
 class App extends React.Component {
   state = {
-    beers: barnabeerList,
-    tasted: false
+    beers: barnabeerList
   };
-
-  // handleClick = event => {s
-  //   const tasted = event.target
-  //   this.setState({tasted});
-  // }
 
   render() {
     const beers = Object.keys(this.state.beers).map((key, index) => {
@@ -25,7 +19,6 @@ class App extends React.Component {
       } = this.state.beers[key];
       return (
         <Beer
-          tasted={this.handleClick}
           key={key}
           beerName={beer_name}
           beerCl={beer_cl}
