@@ -4,7 +4,7 @@ import "./Beer.scss";
 class Beer extends Component {
 
   state = {
-    tasted: this.props.beerTasted
+    details: this.props.details
   }
 
   handleClick = () => {
@@ -14,12 +14,12 @@ class Beer extends Component {
 
   render() {
     const {
-      beerName,
-      beerCl,
-      beerPrice,
-      beerPourcent,
-      beerType
-    } = this.props;
+      beer_name,
+      beer_cl,
+      beer_price,
+      beer_pourcent,
+      beer_type
+    } = this.state.details;
 
     if (this.state.tasted === true) {
       return (
@@ -35,17 +35,17 @@ class Beer extends Component {
             <div className="beer__content">
               <div className="beer__head">
                 <h3 className="beer__name">
-                  {beerName}
-                  <span className="beer__pourcent">{beerCl}</span>
+                  {beer_name}
+                  <span className="beer__pourcent">{beer_cl}</span>
                 </h3>
-                <p>{beerPrice}</p>
+                <p>{beer_price}</p>
               </div>
               <ul>
                 <li className="beer_type">
-                  <p>{beerPourcent}</p>
+                  <p>{beer_pourcent}</p>
                 </li>
                 <li className="beer_type">
-                  <p>{beerType}</p>
+                  <p>{beer_type}</p>
                 </li>
               </ul>
             </div>
@@ -63,17 +63,17 @@ class Beer extends Component {
             <div className="beer__content">
               <div className="beer__head">
                 <h3 className="beer__name">
-                  {beerName}
-                  <span className="beer__pourcent">{beerCl}</span>
+                  {beer_name}
+                  <span className="beer__pourcent">{beer_cl}</span>
                 </h3>
-                <p>{beerPrice}</p>
+                <p>{beer_price}</p>
               </div>
               <ul>
                 <li className="beer_type">
-                  <p>{beerPourcent}</p>
+                  <p>{beer_pourcent}</p>
                 </li>
                 <li className="beer_type">
-                  <p>{beerType}</p>
+                  <p>{beer_type}</p>
                 </li>
               </ul>
             </div>

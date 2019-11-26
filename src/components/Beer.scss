@@ -67,11 +67,6 @@
   left: 0;
   height: 100%;
   width: 50px;
-  background-color: #ccc;
-}
-
-.container__check:hover input ~ .checkmark {
-  background-color: #ccc;
 }
 
 .checkmark:after {
@@ -95,15 +90,16 @@
   top: 28px;
   width: 5px;
   height: 10px;
-  border: solid white;
+  border: solid red;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
 
 .beers__list__el--active {
   text-decoration: line-through;
-  background-color: oranges;
-  .container__check input:checked ~ .checkmark {
-    background-color: #2196f3;
+  background-color: yellow !important;
+  .container__check .checkmark:after {
+    border: solid black;
+    border-width: 0 3px 3px 0;
   }
 }

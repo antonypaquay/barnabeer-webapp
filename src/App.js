@@ -18,25 +18,11 @@ class App extends React.Component {
 
   render() {
     const beers = Object.keys(this.state.beers).map((key, index) => {
-      const {
-        beer_name,
-        beer_cl,
-        beer_pourcent,
-        beer_type,
-        beer_price,
-        beer_id,
-        beer_tasted
-      } = this.state.beers[key];
 
       return (
         <Beer
-          key={beer_id}
-          beerTasted={beer_tasted}
-          beerName={beer_name}
-          beerCl={beer_cl}
-          beerPourcent={beer_pourcent}
-          beerType={beer_type}
-          beerPrice={beer_price}
+          key={key}
+          details={this.state.beers[key]}
         />
       );
     });
