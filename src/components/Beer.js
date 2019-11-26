@@ -2,17 +2,24 @@ import React, { Component } from "react";
 import "./Beer.scss";
 
 class Beer extends Component {
+
   state = {
-    tasted: false
-  };
+    tasted: this.props.beerTasted
+  }
 
   handleClick = () => {
-    const tasted = !this.state.tasted === true;
-    this.setState({ tasted: tasted });
+    const tasted = ! this.state.tasted;
+    this.setState({tasted: tasted})
   };
 
   render() {
-    const { beerName, beerCl, beerPrice, beerPourcent, beerType } = this.props;
+    const {
+      beerName,
+      beerCl,
+      beerPrice,
+      beerPourcent,
+      beerType
+    } = this.props;
 
     if (this.state.tasted === true) {
       return (

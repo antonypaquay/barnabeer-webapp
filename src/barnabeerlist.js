@@ -21,4 +21,7 @@ export let barnabeerList = {
     beer_price: "3,20 €"
   }
 }
+
+
+
   
