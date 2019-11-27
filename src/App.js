@@ -6,16 +6,22 @@ import Beer from "./components/Beer";
 
 class App extends React.Component {
 	state = {
-    beers: {},
-    user: this.props.match.params.user
+		beers: {},
+		user: this.props.match.params.user
 	};
 
 	componentDidMount() {
-		base.syncState("/beers", {
+		base.syncState(`/beers`, {
 			context: this,
 			state: "beers"
 		});
 	}
+
+	tasted = (key, newBeer) => {
+		const beers = { ...this.state.beers };
+		beers[key] = newBeer;
+		this.setState({ beers });
+	};
 
 	render() {
 		const beers = Object.keys(this.state.beers).map((key, index) => {
@@ -31,8 +37,11 @@ class App extends React.Component {
 
 			return (
 				<Beer
+					beers={this.state.beers}
 					key={beer_id}
+					id={key}
 					beerTasted={beer_tasted}
+					tasted={this.tasted}
 					beerName={beer_name}
 					beerCl={beer_cl}
 					beerPourcent={beer_pourcent}
