@@ -9,7 +9,7 @@ class Beer extends Component {
 		} else {
 			beer.beer_tasted = true;
 		}
-		this.props.tasted(key, beer);
+		this.props.isTasted(key, beer);
 	};
 
 	render() {

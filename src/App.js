@@ -11,13 +11,24 @@ class App extends React.Component {
 	};
 
 	componentDidMount() {
-		base.syncState(`/beers`, {
+		base.syncState(`/user/${this.state.user}/beers`, {
 			context: this,
 			state: "beers"
 		});
 	}
 
-	tasted = (key, newBeer) => {
+	handleClick = () => {
+		base.fetch(`/beers`, {
+			context: this,
+			state: "beers",
+			then(data) {
+				const beers = data;
+				this.setState({ beers });
+			}
+		});
+	};
+
+	isTasted = (key, newBeer) => {
 		const beers = { ...this.state.beers };
 		beers[key] = newBeer;
 		this.setState({ beers });
@@ -41,7 +52,7 @@ class App extends React.Component {
 					key={beer_id}
 					id={key}
 					beerTasted={beer_tasted}
-					tasted={this.tasted}
+					isTasted={this.isTasted}
 					beerName={beer_name}
 					beerCl={beer_cl}
 					beerPourcent={beer_pourcent}
@@ -55,6 +66,13 @@ class App extends React.Component {
 			<div className="App">
 				<div className="wrapper">
 					<h2>Bonjour {this.state.user}</h2>
+
+					<button onClick={this.handleClick}>
+						{this.state.beers
+							? "Réinitialiser les bières"
+							: "Afficher les bières"}
+					</button>
+
 					<ul className="beers__list">{beers}</ul>
 				</div>
 			</div>
