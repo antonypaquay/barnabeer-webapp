@@ -1,28 +1,51 @@
+$opensans: "Open Sans", sans-serif;
+$playfair: "Playfair Display", serif;
+
+$yellow: #f2b711;
+$braun-dark: #c39871;
+$braun-light: #d8d1af;
+$white: #fcf5e5;
+$gray: #212121;
+$black: #000;
+
 .beers__list__el {
   position: relative;
-  background-color: rgb(237, 239, 241);
+  background-color: $gray;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   margin-bottom: 26px;
+  img {
+    display: block;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+  }
+  h3 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      margin: 0;
+      width: 80%;
+      text-align: center;
+      font-size: 2.6em;
+      color: $braun-light;
+    }
   .beer__head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    
     h3,
     p {
       margin: 0;
     }
-    h3 {
-      padding: 12px 0px 0px;
-      color: #1e1e1e;
-      span {
-        margin-left: 6px;
-        color: #444444;
-      }
-    }
+    
   }
   .beer__content {
     display: inline-block;
@@ -46,60 +69,7 @@
   }
 }
 
-.container__check {
-  display: block;
-  position: relative;
-  cursor: pointer;
-  user-select: none;
-}
-
-.container__check input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 50px;
-}
-
-.checkmark:after {
-  content: "";
-  position: absolute;
-  left: 20px;
-  top: 28px;
-  width: 5px;
-  height: 10px;
-  border: solid #1e1e1e;
-  border-width: 0 3px 3px 0;
-  transform: rotate(45deg);
-}
-
-.container__check input:checked ~ .checkmark:after {
-  display: block;
-}
-
-.container__check .checkmark:after {
-  left: 20px;
-  top: 28px;
-  width: 5px;
-  height: 10px;
-  border: solid red;
-  border-width: 0 3px 3px 0;
-  transform: rotate(45deg);
-}
-
 .beers__list__el--active {
   text-decoration: line-through;
-  background-color: yellow !important;
-  .container__check .checkmark:after {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-  }
+  background-color: $gray !important;
 }

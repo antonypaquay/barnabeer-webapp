@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Beer.scss";
+import beerDefault from "../img/beer-default.png";
 
 class Beer extends Component {
   handleClick = (e, key) => {
@@ -30,10 +31,6 @@ class Beer extends Component {
             className="beers__list__el beers__list__el--active"
             onClick={e => this.handleClick(e, key)}
           >
-            <label className="container__check">
-              <input type="checkbox" />
-              <span className="checkmark"></span>
-            </label>
             <div className="beer__content">
               <div className="beer__head">
                 <h3 className="beer__name">{beerName}</h3>
@@ -50,16 +47,11 @@ class Beer extends Component {
             className="beers__list__el"
             onClick={e => this.handleClick(e, key)}
           >
-            <label className="container__check">
-              <input type="checkbox" />
-              <span className="checkmark"></span>
-            </label>
+            <img src={beerDefault} alt="beer default" />
             <div className="beer__content">
+              <h3 className="beer__name">{beerName}</h3>
               <div className="beer__head">
-                <h3 className="beer__name">
-                  {beerName}
-                  <span className="beer__pourcent">{beerCl}</span>
-                </h3>
+                <p className="beer__pourcent">{beerCl}</p>
                 <p>{beerPrice}</p>
               </div>
               <ul>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./App.scss";
 import Beer from "./components/Beer";
 import firebase from "firebase/app";
@@ -70,7 +70,7 @@ class App extends React.Component {
     });
   };
 
-  handleClick = (e) => {
+  handleClick = e => {
     base.fetch(`/beers`, {
       context: this,
       state: "beers",
@@ -78,7 +78,7 @@ class App extends React.Component {
         const beers = data;
         this.setState({ beers });
       }
-	});
+    });
   };
 
   isTasted = (key, newBeer) => {
@@ -88,7 +88,11 @@ class App extends React.Component {
   };
 
   render() {
-    const logout = <button className="btn" onClick={this.logout}>Se déconnecter</button>;
+    const logout = (
+      <button className="btn" onClick={this.logout}>
+        Se déconnecter
+      </button>
+    );
 
     // si l'utilisateur n'est pas connecté
     if (!this.state.uid) {
@@ -105,8 +109,6 @@ class App extends React.Component {
         </div>
       );
     }
-
-    
 
     const beers = Object.keys(this.state.beers).map((key, index) => {
       const {
@@ -133,37 +135,36 @@ class App extends React.Component {
           beerPrice={beer_price}
         />
       );
-	});
+    });
 
-
-	
-
-	
-
-	  const welcome = (
-		  
-		<p>
-		  Bienvenue sur la nouvelle app du Barnabeer, celle-ci te permettra de
-		  découvrir nos produits ainsi qu'indiquer ceux que tu as déjà dégusté
-		  et bien plus encore! Alors tu es près à découvrir l'expérience
-		  Barnabeer?
-		</p>
-	  
-  )
+    const welcome = (
+      <p>
+        Bienvenue sur la nouvelle app du Barnabeer, celle-ci te permettra de
+        découvrir nos produits ainsi qu'indiquer ceux que tu as déjà dégusté et
+        bien plus encore! Alors tu es près à découvrir l'expérience Barnabeer?
+      </p>
+    );
 
     return (
-      <div className="App">
-        <div className="wrapper">
-          <h2>Bonjour {this.state.user}</h2>
-		  
-			{this.state.beers.length > 0 ? null : welcome}
+      <Fragment>
+        <header>
           <button className="btn__secondary" onClick={this.handleClick}>
-            {this.state.beers.length > 0 ? "Réinitialiser" : "Découvrez les bières"}
+            {this.state.beers.length > 0
+              ? "Réinitialiser"
+              : "Découvrez les bières"}
           </button>
           {logout}
-          <ul className="beers__list">{beers}</ul>
-        </div>
-      </div>
+        </header>
+        <section className="section__beers">
+          <div className="wrapper">
+            <h2>Bonjour {this.state.user}</h2>
+
+            {this.state.beers.length > 0 ? null : welcome}
+
+            <ul className="beers__list">{beers}</ul>
+          </div>
+        </section>
+      </Fragment>
     );
   }
 }

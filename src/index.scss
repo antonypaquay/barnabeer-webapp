@@ -1,3 +1,41 @@
-@import './App.scss';
+@import "./App.scss";
 
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: $braun-dark;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: $black;
+    color: $braun-dark;
+    box-shadow: 4px 2px 10px $braun-dark;
+  }
+}
 
+.btn__secondary {
+  display: block;
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: transparent;
+  border: 2px solid $braun-dark;
+  font-size: 14px;
+  font-weight: 700;
+  color: $yellow;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: $black;
+    color: $braun-dark;
+  }
+}

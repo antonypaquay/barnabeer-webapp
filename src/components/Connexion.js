@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import { Redirect } from "react-router-dom";
 import background from "../img/barnabeer-login.jpg";
 import barnabeerLogo from "../img/barnabeer-logo-full.png";
+import Footer from "./Footer";
 
 class Connexion extends Component {
   state = {
@@ -44,7 +45,7 @@ class Connexion extends Component {
                   onChange={this.handleChange}
                 />
                 <button className="btn" type="submit">
-                  Log in
+                  Se connecter
                 </button>
               </form>
             </div>
@@ -53,6 +54,7 @@ class Connexion extends Component {
             <img src={background} alt="barnabeer" />
           </div>
         </section>
+        <Footer/>
       </Fragment>
     );
   }

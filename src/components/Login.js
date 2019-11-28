@@ -1,16 +1,34 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
+import facebook from "../img/facebook.png"
+import Footer from "./Footer";
 
 const Login = ({ authenticate, user }) => {
   return (
-    <div className="login">
-      <h2>Bonjour {user}</h2>
-      <h3>Connecte toi et commence à déguster !</h3>
-      <Link to="/">Changer d'utilisateur</Link>
-      <button onClick={authenticate} className="facebook-button">
-        Me connecter avec facebook
-      </button>
-    </div>
+    <Fragment>
+      <section className="section__facebook">
+        <div className="wrapper">
+          <div className="login">
+            <img src={facebook} alt="facebook-logo"/>
+            <h2>
+              On y presque <span>{user} !</span>
+            </h2>
+            <h3>Connecte toi via facebook et commence à déguster !</h3>
+            <p>
+              Cette application utilise l'authentication Oauth via facebook afin de
+              récueillir des données relatives à votre profil utilisateur.
+            </p>
+            <button onClick={authenticate} className="btn">
+              Me connecter avec facebook
+            </button>
+            <Link class="btn__secondary" to="/">
+              Changer d'utilisateur
+            </Link>
+          </div>
+        </div>
+      </section>
+      <Footer/>
+    </Fragment>
   );
 };
 
