@@ -7,8 +7,10 @@
     "re-base": "^4.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-rellax": "^1.0.3",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "rellax": "^1.10.0"
   },
   "scripts": {
     "start": "react-scripts start",

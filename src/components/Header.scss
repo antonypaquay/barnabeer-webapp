@@ -1,0 +1,37 @@
+header {
+    background-color: black;
+    box-shadow: 2px 0px 10px black;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+    z-index: 9999;
+    padding:8px 0px;
+    border-bottom: 1px solid #c39871;
+    p {
+        color: #c39871;
+        font-family: 'Playfair Display', serif;
+        font-size: 16px;
+        font-style: italic;
+    }
+	.wrapper {
+		display: flex;
+		flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+		
+	}
+	.btn__reset, .btn__img {
+        display: block;
+        height: 100%;
+        padding: 8px;
+        background-color: transparent;
+        outline: none;
+        border: none;
+		img {
+            display: block;
+            width: 20px;
+        }
+	}
+
+}

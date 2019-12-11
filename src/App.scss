@@ -58,17 +58,6 @@ p{
   list-style: none;
 }
 
-//---- Header ----//
-
-header {
-  background-color: red;
-  height: 40px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-}
 
 .section__login {
   position: relative;
@@ -175,12 +164,23 @@ header {
   }
 }
 
+.welcome {
+  width: 80%;
+  max-width: 320;
+  margin: 0 auto;
+  .btn {
+    margin-top: 16px;
+    max-width: 200px;
+  }
+}
+
 .section__beers {
-  padding: 40px 0px;
+  padding: 100px 0px;
   .beers__list {
     width: 92%;
     margin: 0 auto;
-    max-width: 320px;
+    
+
   }
 }
 

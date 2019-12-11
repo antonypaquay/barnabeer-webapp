@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Beer.scss";
 import beerDefault from "../img/beer-default.png";
+import Parallax from "react-rellax";
 
 class Beer extends Component {
 	handleClick = (e, key) => {
@@ -43,8 +44,11 @@ class Beer extends Component {
 						className="beers__list__el"
 						onClick={e => this.handleClick(e, key)}
 					>
-						<img src={beerDefault} alt="beer default" />
+						<Parallax speed={0.5} centered={true}>
+							<img src={beerDefault} alt="beer default" />
+						</Parallax>
 						<h3 className="beer__name">{beerName}</h3>
+
 						<ul className="beer__details">
 							<li className="beer__details__li">
 								<p>
