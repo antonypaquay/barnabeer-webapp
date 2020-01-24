@@ -10,80 +10,71 @@ $black: #000;
 
 .beers__list__el {
   position: relative;
+  padding: 15px 20px;
   background-color: $gray;
-  border-radius: 2px;
+  overflow: hidden;
+  border-radius: 1px;
+  border-bottom: 2px solid $gray;
+  width: calc(50% -  45px);
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-bottom: 64px;
-  transition: all .3s ease-in-out;
-  img {
-    display: block;
-    width: 100%;
-    z-index: 2;
-    position: relative;
-  }
+  margin-bottom: 10px;
+  transition: all .2s ease-in;
+  // &:nth-child(odd){
+  //   margin-right: 10px;
+  // }
+ 
+  
   h3 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 1;
-      margin: 0;
-      width: 80%;
-      text-align: center;
-      font-size: 2.6rem;
-      z-index: 1;
+      
+     margin: 0px 0px;
+      font-size: 1rem;
+      z-index: 3;
       color: $white;
-      mix-blend-mode: difference;
+     
     }
-    .beer__details {
-      background-color: $braun-dark;
-      list-style: none;
-      padding: 20px;
-      margin: 0;
-      border-radius: 2px;
-      z-index: 2;
-      .beer__details__li {
-        color: $black;
-        border-bottom: 1px solid rgba($black, .3);
-        margin-bottom: 6px;
-        p{
-          color: $black !important;
-          font-weight: 700;
-          margin: 0;
-          display: block;
-          width: 100%;
-          span {
-            text-align: right;
-            display: block;
-            float: right;
-            font-family: $playfair;
-            font-style: italic;
-          }
-        }
-      }
+    p {
+      font-size: .85rem;
+      margin: 0px 0px 8px;
+      z-index: 3;
+      position: relative;
     }
+    svg {
+    position: relative;
+    display: inline-block;
+    
+
+    width: 20px;
+     z-index: 3;
+    
+  }
+  .tastedBox {
+    display: flex;
+    flex-direction: row;
+  }
+  span {
+    display: inline-block;
+    margin-left: 8px;
+    opacity: .3;
+    color: $white;
+    
+  }
 
 }
 
 .beers__list__el--active {
-  background-color: $gray !important;
-  padding: 6px 0px;
-  margin-bottom: 40px;
+  border-bottom: 2px solid $braun-dark;
+  &:before {
+    transform: scale(0.96, 0.90);
+    transform-origin: center center;
+  }
   h3 {
-    font-size: 1.2rem;
-    position: relative;
-    transform: none;
-    top: 0;
-    left: 0;
-    width: 100%;
     text-decoration: line-through;
+ 
+    color: $braun-dark;
   }
-  p {
-    display: block;
-    margin: 4px 0px 0px;
-    text-align: center;
+
+  span {
+    opacity: 1;
   }
+  
 }
