@@ -13,7 +13,7 @@ $black: #000;
 body {
   margin: 0;
   padding: 0;
-  background-color: $black;
+  background-color: white;
   color: $white;
   font-family: $opensans, 'Times New Roman', Times, serif;
 }
@@ -247,5 +247,41 @@ footer {
     font-size: 12px;
     text-align: center;
     display: block;
+  }
+}
+
+.subnav {
+  width: 100%;
+  height: auto;
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  border-top: 1px solid #EAEAEA; //F8F8F8
+  .subnav__ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    .subnav__ul__li {
+      float: left;
+      width: 33.3333%;
+
+      background-color: white;
+      
+      a {
+        display: block;
+        text-align: center;
+      padding: 10px 0px;
+      height: 20px;
+ 
+      svg {
+        width: 18px;
+        height: 18px;
+     
+      
+      }
+      }
+    }
   }
 }
