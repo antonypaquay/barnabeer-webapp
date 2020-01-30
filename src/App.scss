@@ -48,7 +48,6 @@ p{
 
 .wrapper {
   width: calc(100% - 40px);
-  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -251,7 +250,7 @@ footer {
     list-style: none;
     .subnav__ul__li {
       float: left;
-      width: 33.3333%;
+      width: 25%;
 
       background-color: white;
       

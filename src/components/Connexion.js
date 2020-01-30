@@ -22,7 +22,7 @@ class Connexion extends Component {
 
   render() {
     if (this.state.allowed) {
-      return <Redirect push to={`/beers/${this.state.user}`} />;
+      return <Redirect push to={`/account/${this.state.user}/home`} />;
     }
     return (
       <Fragment>

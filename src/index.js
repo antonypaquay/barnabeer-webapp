@@ -11,7 +11,7 @@ const RouterApp = () => {
     <Router>
       <Switch>
         <Route exact path="/" component={Connexion} />
-        <Route path="/beers/:user" component={App} />
+        <Route path="/account/:user" component={App} />
         <Route component={NotFound} />
       </Switch>
     </Router>
