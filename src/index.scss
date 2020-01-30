@@ -3,14 +3,13 @@
 .btn {
   display: block;
   width: 100%;
-  padding: 12px 10px;
+  padding: 8px 10px;
   border: none;
   border-radius: 2px;
   background-color: $braun-dark;
-  font-size: 12px;
-  letter-spacing: 0.6px;
+  font-size: 16px;
   font-weight: 400;
-  text-transform: uppercase;
+ 
   color: $white;
   cursor: pointer;
   transition: all 0.3s ease-in-out;

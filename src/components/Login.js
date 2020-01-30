@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import facebook from "../img/facebook.png"
-import Footer from "./Footer";
+
 
 const Login = ({ authenticate, user }) => {
   return (
@@ -21,13 +21,13 @@ const Login = ({ authenticate, user }) => {
             <button onClick={authenticate} className="btn">
               Me connecter avec facebook
             </button>
-            <Link class="btn__secondary" to="/">
+            <Link className="btn__secondary" to="/">
               Changer d'utilisateur
             </Link>
           </div>
         </div>
       </section>
-      <Footer/>
+      
     </Fragment>
   );
 };
