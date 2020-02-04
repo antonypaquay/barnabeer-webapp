@@ -1,0 +1,30 @@
+.subnav {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  border-top: 1px solid #eaeaea;
+  .subnav__ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    .subnav__ul__li {
+      float: left;
+      width: 25%;
+      background-color: white;
+      a {
+        display: block;
+        text-align: center;
+        padding: 10px 0px;
+        height: 20px;
+        svg {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+  }
+}

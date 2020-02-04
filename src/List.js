@@ -50,14 +50,13 @@ class List extends Component {
         beer_pourcent,
         beer_type,
         beer_price,
-        beer_id,
         beer_tasted
       } = this.state.beers[key];
 
       return (
         <Beer
           beers={this.state.beers}
-          key={beer_id}
+          key={key}
           id={key}
           beerTasted={beer_tasted}
           isTasted={this.isTasted}
@@ -86,7 +85,7 @@ class List extends Component {
 
     return (
       <Fragment>
-        {this.state.beers.length > 0 ? null : welcome}
+        {this.state.beers.length !== 0 ? null : welcome}
         <ul className="beers__list">{beers}</ul>
       </Fragment>
     );
