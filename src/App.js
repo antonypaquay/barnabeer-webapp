@@ -80,6 +80,12 @@ class App extends React.Component {
     });
   };
 
+  isTasted = (key, newBeer) => {
+    const beers = { ...this.state.beers };
+    beers[key] = newBeer;
+    this.setState({ beers });
+  };
+
   render() {
     // si l'utilisateur n'est pas connecté
     if (!this.state.uid) {
@@ -121,7 +127,7 @@ class App extends React.Component {
             </Switch>
           </div>
         </section>
-        <BottomNav user={this.state.user} beers={this.state.beers} />
+        <BottomNav user={this.state.user} isTasted={this.isTasted()} beers={this.state.beers} />
       </Fragment>
     );
   }
