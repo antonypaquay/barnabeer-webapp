@@ -111,10 +111,12 @@ class App extends React.Component {
 							<Route path={`/account/${this.state.user}/profile`}>
 								<Profile user={this.state.user} />
 							</Route>
-							<Route
-								path={`/account/${this.state.user}/home`}
-								component={Home}
-							/>
+							<Route path={`/account/${this.state.user}/home`}>
+								<Home
+									user={this.state.user}
+									numberOfBeers={this.state.beers.length}
+								/>
+							</Route>
 							<Route
 								path={`/account/${this.state.user}/tasted`}
 								component={Tasted}
