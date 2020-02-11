@@ -117,10 +117,9 @@ class App extends React.Component {
 									numberOfBeers={this.state.beers.length}
 								/>
 							</Route>
-							<Route
-								path={`/account/${this.state.user}/tasted`}
-								component={Tasted}
-							/>
+							<Route path={`/account/${this.state.user}/tasted`}>
+								<Tasted user={this.state.user} beers={this.state.beers} />
+							</Route>
 							<Route path={`/account/${this.state.user}/list`}>
 								<List
 									user={this.state.user}

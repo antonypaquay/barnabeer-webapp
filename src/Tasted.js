@@ -1,23 +1,44 @@
-import React, { Component } from "react";
-import "firebase/auth";
-import base from "./base";
+import React from "react";
+import Beer from "./components/Beer";
 
-class Tasted extends Component {
-  state = {
-    beers: {},
-    username: this.props.location.state.user
-  };
 
-  componentDidMount() {
-    base.syncState(`/users/${this.state.username}/beers`, {
-      context: this,
-      state: "beers"
-    });
-  }
+const Tasted = ({user, beers}) => {
 
-  render() {
-    return <h1>Tasted page</h1>;
-  }
+  const beersTasted = Object.keys(beers).map((key, index) => {
+    const {
+      beer_name,
+      beer_cl,
+      beer_pourcent,
+      beer_type,
+      beer_price,
+      beer_tasted
+    } = beers[key];
+
+    if(beers[key].beer_tasted) {
+      return (
+        <Beer
+          beers={beers}
+          key={key}
+          id={key}
+          beerTasted={beer_tasted}
+          beerName={beer_name}
+          beerCl={beer_cl}
+          beerPourcent={beer_pourcent}
+          beerType={beer_type}
+          beerPrice={beer_price}
+        />
+      );
+    }
+  });
+  console.log(beersTasted);
+
+  return(
+    <div>
+      <h1>Tasted page {user}</h1>
+      {beersTasted}
+    </div>
+  )
 }
+
 
 export default Tasted;

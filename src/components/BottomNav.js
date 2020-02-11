@@ -8,7 +8,14 @@ const BottomNav = ({ user }) => {
 		<div className="subnav">
 			<ul className="subnav__ul">
 				<li className="subnav__ul__li">
-					<Link to={`/account/${user}/tasted`}>
+					<Link
+						to={{
+							pathname: `/account/${user}/tasted`,
+							state: {
+								user: user
+							}
+						}}
+					>
 						<svg viewBox="0 0 80 80">
 							<g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
 								<g
