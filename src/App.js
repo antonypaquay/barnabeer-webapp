@@ -18,12 +18,16 @@ import Profile from "./Profile";
 class App extends React.Component {
   state = {
     user: this.props.match.params.user,
-    //----
     uid: null,
-    fbuser: null
+    fbuser: null,
+    beers: {}
   };
 
   componentDidMount() {
+    base.syncState(`/users/${this.state.user}/beers`, {
+      context: this,
+      state: "beers",
+    });
     //-----
     firebase.auth().onAuthStateChanged(user => {
       if (user) {
@@ -117,7 +121,7 @@ class App extends React.Component {
             </Switch>
           </div>
         </section>
-        <BottomNav user={this.state.user} />
+        <BottomNav user={this.state.user} beers={this.state.beers} />
       </Fragment>
     );
   }

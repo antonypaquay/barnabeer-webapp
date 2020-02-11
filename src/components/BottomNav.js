@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // Style
 import "./BottomNav.scss";
 
-const BottomNav = ({ user }) => {
+const BottomNav = ({ user, beers }) => {
   return (
     <div className="subnav">
       <ul className="subnav__ul">
@@ -27,7 +27,8 @@ const BottomNav = ({ user }) => {
             to={{
               pathname: `/account/${user}/list`,
               state: {
-                user: user
+                user: user,
+                beers: beers
               }
             }}
           >

@@ -1,49 +1,10 @@
 import React, { Component, Fragment } from "react";
-import "firebase/auth";
-import base from "./base";
 import Beer from "./components/Beer";
 
 class List extends Component {
 
-    state = {
-        beers: {},
-        username: this.props.location.state.user
-        //----
-        //uid: null,
-        //fbuser: null
-      };
-
-  componentDidMount() {
-    
-   
-    base.syncState(`/users/${this.state.username}/beers`, {
-      context: this,
-      state: "beers"
-    });
-   
-    
-  }
-
-  handleClick = e => {
-    base.fetch(`/beers`, {
-      context: this,
-      state: "beers",
-      then(data) {
-        const beers = data;
-        this.setState({ beers });
-      }
-    });
-    
-  };
-
-  isTasted = (key, newBeer) => {
-    const beers = { ...this.state.beers };
-    beers[key] = newBeer;
-    this.setState({ beers });
-  };
-
   render() {
-    const beers = Object.keys(this.state.beers).map((key, index) => {
+    const beers = Object.keys(this.props.location.state.beers).map((key, index) => {
       const {
         beer_name,
         beer_cl,
@@ -51,11 +12,11 @@ class List extends Component {
         beer_type,
         beer_price,
         beer_tasted
-      } = this.state.beers[key];
+      } = this.props.location.state.beers[key];
 
       return (
         <Beer
-          beers={this.state.beers}
+          beers={this.props.location.state.beers}
           key={key}
           id={key}
           beerTasted={beer_tasted}
@@ -70,7 +31,7 @@ class List extends Component {
     });
     const welcome = (
       <div className="welcome">
-        <h2>Bonjour {this.state.user}</h2>
+        <h2>Bonjour {this.props.location.state.user}</h2>
         <p>
           Bienvenue sur la nouvelle app du Barnabeer, celle-ci te permettra de
           découvrir nos produits ainsi qu'indiquer ceux que tu as déjà dégusté
@@ -85,7 +46,7 @@ class List extends Component {
 
     return (
       <Fragment>
-        {this.state.beers.length !== 0 ? null : welcome}
+        {this.props.location.state.beers.length !== 0 ? null : welcome}
         <ul className="beers__list">{beers}</ul>
       </Fragment>
     );
