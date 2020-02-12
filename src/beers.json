@@ -1,0 +1,3011 @@
+{
+    "beers": [
+        {
+            "beer_brewery": "T Verzet",
+            "beer_name": "Golden Tricky",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "T Verzet",
+            "beer_name": "Moose Blues",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Brune",
+            "beer_price": "4,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "T Verzet",
+            "beer_name": "Oaky Moaky",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Brune",
+            "beer_price": "5,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "T Verzet",
+            "beer_name": "Oud Bruin",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Brune",
+            "beer_price": "5,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "T Verzet",
+            "beer_name": "Rebel Local",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "T Verzet",
+            "beer_name": "Super Noah",
+            "beer_cl": "33",
+            "beer_pourcent": "4,9",
+            "beer_type": "Blonde",
+            "beer_price": "3,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "T Verzet",
+            "beer_name": "Banjo Funeral",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Brune",
+            "beer_price": "5,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Abbaye d'Engelszell",
+            "beer_name": "Benno",
+            "beer_cl": "33",
+            "beer_pourcent": "6,9",
+            "beer_type": "Ambree",
+            "beer_price": "8,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Abbaye d'Engelszell",
+            "beer_name": "Gregorius",
+            "beer_cl": "33",
+            "beer_pourcent": "9,7",
+            "beer_type": "Brune",
+            "beer_price": "8,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Abbaye d'Engelszell",
+            "beer_name": "Nivard",
+            "beer_cl": "33",
+            "beer_pourcent": "10",
+            "beer_type": "Blonde",
+            "beer_price": "7,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Abbaye de Maredsous",
+            "beer_name": "Maredsous Brune",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Brune",
+            "beer_price": "4,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Abbaye de Maredsous",
+            "beer_name": "Maredsous Blonde",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Abbaye de Maredsous",
+            "beer_name": "Maredsous Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "10",
+            "beer_type": "Blonde",
+            "beer_price": "4,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Abbaye Des Rocks",
+            "beer_name": "Blanches Des Honnelles",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blanche",
+            "beer_price": "3,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Abbaye Des Rocks",
+            "beer_name": "Abbaye Des Rocks Brune",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Brune",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Abbaye Maria-Toevlucht",
+            "beer_name": "Zundert",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Ambrée",
+            "beer_price": "5,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Abbaye St Joseph",
+            "beer_name": "Spencer IPA",
+            "beer_cl": "-",
+            "beer_pourcent": "-",
+            "beer_type": "Blonde",
+            "beer_price": "6,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Achouffe",
+            "beer_name": "Chouffe",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Achouffe",
+            "beer_name": "Chouffe Houblon",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "4,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Achouffe",
+            "beer_name": "Chouffe Soleil",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "3,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Achouffe",
+            "beer_name": "Mc Chouffe",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Brune",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Alken-Maes",
+            "beer_name": "Hapkin",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Alken-Maes",
+            "beer_name": "Affligem Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Alken-Maes",
+            "beer_name": "Grimbergen Blonde",
+            "beer_cl": "33",
+            "beer_pourcent": "6,7",
+            "beer_type": "Blonde",
+            "beer_price": "4,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Alken-Maes",
+            "beer_name": "Judas",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "5,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Alken-Maes",
+            "beer_name": "Maes 0,0%",
+            "beer_cl": "33",
+            "beer_pourcent": "0",
+            "beer_type": "Blonde",
+            "beer_price": "2,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Arogante",
+            "beer_name": "Arogante",
+            "beer_cl": "33",
+            "beer_pourcent": "7,2",
+            "beer_type": "Blonde",
+            "beer_price": "5,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Arogante",
+            "beer_name": "Arogante Stout-Ish",
+            "beer_cl": "33",
+            "beer_pourcent": "5,5",
+            "beer_type": "Stout",
+            "beer_price": "5,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Atrium",
+            "beer_name": "Avalenche",
+            "beer_cl": "33",
+            "beer_pourcent": "6,8",
+            "beer_type": "Red IPA",
+            "beer_price": "5,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Atrium",
+            "beer_name": "Carya",
+            "beer_cl": "33",
+            "beer_pourcent": "5,7",
+            "beer_type": "Brown Ale",
+            "beer_price": "6,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Atrium",
+            "beer_name": "Clémentine",
+            "beer_cl": "33",
+            "beer_pourcent": "5,3",
+            "beer_type": "Blanche",
+            "beer_price": "6,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Atrium",
+            "beer_name": "Pam",
+            "beer_cl": "33",
+            "beer_pourcent": "5,9",
+            "beer_type": "Pale Ale",
+            "beer_price": "5,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Atrium",
+            "beer_name": "Onyx",
+            "beer_cl": "33",
+            "beer_pourcent": "11",
+            "beer_type": "Imperial Stout",
+            "beer_price": "7,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Atrium",
+            "beer_name": "The One",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Saison",
+            "beer_price": "5,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Belgo Sapiens",
+            "beer_name": "Blanche De Thines",
+            "beer_cl": "33",
+            "beer_pourcent": "4,8",
+            "beer_type": "Blanche",
+            "beer_price": "3,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Belgo Sapiens",
+            "beer_name": "Colonel Arch",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Ambree",
+            "beer_price": "3,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Belgoo",
+            "beer_name": "Belgoo Bio",
+            "beer_cl": "33",
+            "beer_pourcent": "7,8",
+            "beer_type": "Ambree",
+            "beer_price": "4,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Belgoo",
+            "beer_name": "Dikkenek",
+            "beer_cl": "33",
+            "beer_pourcent": "4,7",
+            "beer_type": "Blonde",
+            "beer_price": "4,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Belgoo",
+            "beer_name": "Dikkenek IPA",
+            "beer_cl": "33",
+            "beer_pourcent": "6,7",
+            "beer_type": "Blonde",
+            "beer_price": "4,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Belgoo",
+            "beer_name": "Luppo Extra",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Belgoo",
+            "beer_name": "Magus",
+            "beer_cl": "33",
+            "beer_pourcent": "6,6",
+            "beer_type": "Blonde",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Belgoo",
+            "beer_name": "Saisonneke Extra",
+            "beer_cl": "33",
+            "beer_pourcent": "4,4",
+            "beer_type": "Blonde",
+            "beer_price": "3,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Binchoise",
+            "beer_name": "Bière Des Ours",
+            "beer_cl": "33",
+            "beer_pourcent": "8,4",
+            "beer_type": "Blonde",
+            "beer_price": "4,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Binchoise",
+            "beer_name": "Binchoise Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Blaugies",
+            "beer_name": "Saison d'épeautre",
+            "beer_cl": "75",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "9,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Boon",
+            "beer_name": "Boon Gueuze Mariage Parfait",
+            "beer_cl": "37,5",
+            "beer_pourcent": "8",
+            "beer_type": "Gueuze",
+            "beer_price": "7,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Boon",
+            "beer_name": "Boon Oude Gueuze",
+            "beer_cl": "37,5",
+            "beer_pourcent": "7",
+            "beer_type": "Gueuze",
+            "beer_price": "5,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Boon",
+            "beer_name": "Boon Gueuze",
+            "beer_cl": "25",
+            "beer_pourcent": "7",
+            "beer_type": "Gueuze",
+            "beer_price": "2,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Boon",
+            "beer_name": "Boon Kriek",
+            "beer_cl": "25",
+            "beer_pourcent": "5",
+            "beer_type": "Kriek",
+            "beer_price": "2,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Boon",
+            "beer_name": "Boon Kriek Mariage Parfait",
+            "beer_cl": "37,5",
+            "beer_pourcent": "8",
+            "beer_type": "Kriek",
+            "beer_price": "10,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Boon",
+            "beer_name": "Boon Faro",
+            "beer_cl": "25",
+            "beer_pourcent": "4",
+            "beer_type": "Faro",
+            "beer_price": "2,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Boulevard",
+            "beer_name": "Calling IPA",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Boulevard",
+            "beer_name": "Single Wild IPA",
+            "beer_cl": "33",
+            "beer_pourcent": "5,7",
+            "beer_type": "Blonde",
+            "beer_price": "4,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brasse & Vous",
+            "beer_name": "Legia Cassis-Menthe",
+            "beer_cl": "33",
+            "beer_pourcent": "3,5",
+            "beer_type": "Fruitée",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brewerij T IJ",
+            "beer_name": "IJwit",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blanche",
+            "beer_price": "5,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brewdog",
+            "beer_name": "Punk IPA",
+            "beer_cl": "33",
+            "beer_pourcent": "5,6",
+            "beer_type": "Blonde",
+            "beer_price": "6,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brewdog",
+            "beer_name": "Jack Hammer",
+            "beer_cl": "33",
+            "beer_pourcent": "7,4",
+            "beer_type": "Blonde",
+            "beer_price": "7,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brogne",
+            "beer_name": "Brogne Blonde",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "4,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brogne",
+            "beer_name": "Brogne Session",
+            "beer_cl": "33",
+            "beer_pourcent": "4,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brunehaut",
+            "beer_name": "Ambree Sans Gluten",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Ambree",
+            "beer_price": "3,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brunehaut",
+            "beer_name": "Blonde Sans Gluten",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brussels Beer Project",
+            "beer_name": "Delta IPA",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brussels Beer Project",
+            "beer_name": "Grosse Bertha",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brussels Beer Project",
+            "beer_name": "Jungle Joy",
+            "beer_cl": "33",
+            "beer_pourcent": "6,6",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brussels Beer Project",
+            "beer_name": "Wunder lager",
+            "beer_cl": "33",
+            "beer_pourcent": "3,8",
+            "beer_type": "Blonde",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Brussels Beer Project",
+            "beer_name": "Babylone",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Ça brasse pour",
+            "beer_name": "Bière en cours de production",
+            "beer_cl": "-",
+            "beer_pourcent": "-",
+            "beer_type": "-",
+            "beer_price": "-",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Cantillon",
+            "beer_name": "Cantillon Gueuze",
+            "beer_cl": "37,5",
+            "beer_pourcent": "5,5",
+            "beer_type": "Gueuze",
+            "beer_price": "12,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Cantillon",
+            "beer_name": "Cantillon Kriek",
+            "beer_cl": "37,5",
+            "beer_pourcent": "5,5",
+            "beer_type": "Kriek",
+            "beer_price": "19,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Caracole",
+            "beer_name": "Caracole Ambree",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Ambree",
+            "beer_price": "4,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Caracole",
+            "beer_name": "Forestine Mysteria",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Ambree",
+            "beer_price": "5,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Caracole",
+            "beer_name": "Nostradamus",
+            "beer_cl": "33",
+            "beer_pourcent": "9,9",
+            "beer_type": "Brune",
+            "beer_price": "5,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Caracole",
+            "beer_name": "Saxo Bio",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Carrieres",
+            "beer_name": "Diole Ambree",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Ambree",
+            "beer_price": "3,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Carrieres",
+            "beer_name": "Diole Blonde",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Carrieres",
+            "beer_name": "Diole Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Caulier",
+            "beer_name": "Paix Dieu",
+            "beer_cl": "33",
+            "beer_pourcent": "10",
+            "beer_type": "Blonde",
+            "beer_price": "4,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Cazeau",
+            "beer_name": "Cazeau Hop Harvest",
+            "beer_cl": "33",
+            "beer_pourcent": "5",
+            "beer_type": "Blonde",
+            "beer_price": "5,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Cazeau",
+            "beer_name": "Saison Cazeau",
+            "beer_cl": "33",
+            "beer_pourcent": "5",
+            "beer_type": "Blonde",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Cazeau",
+            "beer_name": "Tournay Blonde",
+            "beer_cl": "33",
+            "beer_pourcent": "6,7",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Cazeau",
+            "beer_name": "Tournay Noire",
+            "beer_cl": "33",
+            "beer_pourcent": "7,6",
+            "beer_type": "Stout",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Cazeau",
+            "beer_name": "Tournay Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "9,2",
+            "beer_type": "Blonde",
+            "beer_price": "4,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Clocher",
+            "beer_name": "Philomene Florale",
+            "beer_cl": "33",
+            "beer_pourcent": "5,5",
+            "beer_type": "Blonde",
+            "beer_price": "5,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Clocher",
+            "beer_name": "Philomene Hoptimale",
+            "beer_cl": "33",
+            "beer_pourcent": "7,2",
+            "beer_type": "Ambree",
+            "beer_price": "5,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Conferie Li Crochon",
+            "beer_name": "Cuvee Li Crochon",
+            "beer_cl": "75",
+            "beer_pourcent": "6,8",
+            "beer_type": "Blonde",
+            "beer_price": "9,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Cornelissen",
+            "beer_name": "Herkenrode cister",
+            "beer_cl": "75",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "-",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Curtius",
+            "beer_name": "Curtius Black",
+            "beer_cl": "37,5",
+            "beer_pourcent": "8",
+            "beer_type": "Stout",
+            "beer_price": "5,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Curtius",
+            "beer_name": "Curtius",
+            "beer_cl": "75",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "13,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Curtius",
+            "beer_name": "Smash",
+            "beer_cl": "33",
+            "beer_pourcent": "6,2",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Brabandere/Bavik",
+            "beer_name": "Wittekerke Rosee",
+            "beer_cl": "25",
+            "beer_pourcent": "4,3",
+            "beer_type": "Blanche",
+            "beer_price": "2,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Brabandere/Bavik",
+            "beer_name": "1894",
+            "beer_cl": "75",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "22,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Dochter Van De Korenaar",
+            "beer_name": "Embrasse",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Brune",
+            "beer_price": "6,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Dochter Van De Korenaar",
+            "beer_name": "Belle fleur",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Ambree",
+            "beer_price": "5,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Dochter Van De Korenaar",
+            "beer_name": "Crime Passionnel",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Ambree",
+            "beer_price": "5,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Dochter Van De Korenaar",
+            "beer_name": "Noblesse",
+            "beer_cl": "33",
+            "beer_pourcent": "5,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Dochter Van De Korenaar",
+            "beer_name": "Noblesse Extra Ordinaire",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "5,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Dochter Van De Korenaar",
+            "beer_name": "Passe-Partout",
+            "beer_cl": "33",
+            "beer_pourcent": "3",
+            "beer_type": "Blonde",
+            "beer_price": "3,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Halve Maan",
+            "beer_name": "Brugse Zot",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "3,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Halve Maan",
+            "beer_name": "Straffe Hendrik Quadrupple",
+            "beer_cl": "33",
+            "beer_pourcent": "11",
+            "beer_type": "Brune",
+            "beer_price": "4,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Halve Maan",
+            "beer_name": "Straffe Hendrik Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Halve Maan",
+            "beer_name": "Straffe Hendrik Wild",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "5,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Halve Maan",
+            "beer_name": "Straffe Heritage",
+            "beer_cl": "75",
+            "beer_pourcent": "11",
+            "beer_type": "Brune",
+            "beer_price": "25,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Koninck",
+            "beer_name": "Triple D'anvers",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "4,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Koninck",
+            "beer_name": "Wild Jo",
+            "beer_cl": "33",
+            "beer_pourcent": "5,8",
+            "beer_type": "Blonde",
+            "beer_price": "3,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Koninck",
+            "beer_name": "Bolleke",
+            "beer_cl": "25",
+            "beer_pourcent": "5,2",
+            "beer_type": "Blonde",
+            "beer_price": "2,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Landtsheer",
+            "beer_name": "Malheur 10°",
+            "beer_cl": "33",
+            "beer_pourcent": "10",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Molen",
+            "beer_name": "Amarillo",
+            "beer_cl": "33",
+            "beer_pourcent": "9,2",
+            "beer_type": "Blonde",
+            "beer_price": "7,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Molen",
+            "beer_name": "Rasputin",
+            "beer_cl": "33",
+            "beer_pourcent": "10,7",
+            "beer_type": "Stout",
+            "beer_price": "10,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Ranke",
+            "beer_name": "Cuvee De Ranke",
+            "beer_cl": "75",
+            "beer_pourcent": "7",
+            "beer_type": "Lambic",
+            "beer_price": "13,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Ranke",
+            "beer_name": "Back to Black",
+            "beer_cl": "75",
+            "beer_pourcent": "9,5",
+            "beer_type": "Noire",
+            "beer_price": "22,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Ranke",
+            "beer_name": "De Ranke Kriek",
+            "beer_cl": "75",
+            "beer_pourcent": "7",
+            "beer_type": "Kriek",
+            "beer_price": "15,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Ranke",
+            "beer_name": "Simplex",
+            "beer_cl": "33",
+            "beer_pourcent": "4,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Ranke",
+            "beer_name": "Guldenberg",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Ranke",
+            "beer_name": "Noir De Dottignies",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Brune",
+            "beer_price": "4,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Ranke",
+            "beer_name": "Saison De Dottignies",
+            "beer_cl": "33",
+            "beer_pourcent": "5,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Ranke",
+            "beer_name": "xx Bitter",
+            "beer_cl": "33",
+            "beer_pourcent": "6,2",
+            "beer_type": "Blonde",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Struise",
+            "beer_name": "Black Albert",
+            "beer_cl": "33",
+            "beer_pourcent": "13",
+            "beer_type": "Stout",
+            "beer_price": "7,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Struise",
+            "beer_name": "Cuvee Delphine",
+            "beer_cl": "33",
+            "beer_pourcent": "13",
+            "beer_type": "Stout",
+            "beer_price": "7,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Struise",
+            "beer_name": "Pannepot",
+            "beer_cl": "33",
+            "beer_pourcent": "10",
+            "beer_type": "Brune",
+            "beer_price": "7,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Delsart",
+            "beer_name": "St Joseph",
+            "beer_cl": "33",
+            "beer_pourcent": "6,3",
+            "beer_type": "Blonde",
+            "beer_price": "3,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "De Herberg",
+            "beer_name": "Cuvee Deville",
+            "beer_cl": "33",
+            "beer_pourcent": "6,2",
+            "beer_type": "Ambree",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Des Eaux Vives",
+            "beer_name": "Dame Bibiche",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "5,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Des Eaux Vives",
+            "beer_name": "Monsieur Mouche",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Brune",
+            "beer_price": "4,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Des Fagnes",
+            "beer_name": "Super des Fagnes",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Deseveaux",
+            "beer_name": "Sarazen",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dilewyns",
+            "beer_name": "Vicaris Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Drie Fonteinen",
+            "beer_name": "Oude Gueuze",
+            "beer_cl": "37,5",
+            "beer_pourcent": "6",
+            "beer_type": "Gueuze",
+            "beer_price": "11,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Drie Fonteinen",
+            "beer_name": "Oude Kriek",
+            "beer_cl": "37,5",
+            "beer_pourcent": "6",
+            "beer_type": "Kriek",
+            "beer_price": "13,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Du Bocq",
+            "beer_name": "Blanche de Namur",
+            "beer_cl": "25",
+            "beer_pourcent": "4,5",
+            "beer_type": "Blanche",
+            "beer_price": "2,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Du Bocq",
+            "beer_name": "Gauloise Ambree",
+            "beer_cl": "33",
+            "beer_pourcent": "5,6",
+            "beer_type": "Ambree",
+            "beer_price": "3,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Du Bocq",
+            "beer_name": "Gauloise Rouge",
+            "beer_cl": "33",
+            "beer_pourcent": "8,3",
+            "beer_type": "Fruitee",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Du Bocq",
+            "beer_name": "Triple Moine",
+            "beer_cl": "33",
+            "beer_pourcent": "7,3",
+            "beer_type": "Blonde",
+            "beer_price": "4,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dubuisson",
+            "beer_name": "Bush De Charmes",
+            "beer_cl": "75",
+            "beer_pourcent": "10,5",
+            "beer_type": "Blonde",
+            "beer_price": "35,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dubuisson",
+            "beer_name": "Bush De Nuit",
+            "beer_cl": "75",
+            "beer_pourcent": "9",
+            "beer_type": "Ambree",
+            "beer_price": "36,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dubuisson",
+            "beer_name": "Bush De Prestige",
+            "beer_cl": "75",
+            "beer_pourcent": "13",
+            "beer_type": "Ambree",
+            "beer_price": "30,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dubuisson",
+            "beer_name": "Bush",
+            "beer_cl": "33",
+            "beer_pourcent": "10,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dubuisson",
+            "beer_name": "Cuvee Des Trolls",
+            "beer_cl": "25",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "3,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dubuisson",
+            "beer_name": "Surfine",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dubuisson",
+            "beer_name": "Rasta Trolls",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "5,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dupont",
+            "beer_name": "Bons Voeux",
+            "beer_cl": "75",
+            "beer_pourcent": "9,5",
+            "beer_type": "Blonde",
+            "beer_price": "9,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dupont",
+            "beer_name": "Dupont Biolegere",
+            "beer_cl": "25",
+            "beer_pourcent": "3,5",
+            "beer_type": "Blonde",
+            "beer_price": "2,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dupont",
+            "beer_name": "Dupont Miel Bio",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "4,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dupont",
+            "beer_name": "Dupont Saison",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "2,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dupont",
+            "beer_name": "Dupont Saison Bio",
+            "beer_cl": "33",
+            "beer_pourcent": "5,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dupont",
+            "beer_name": "Moinette Bio",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dupont",
+            "beer_name": "Moinette Blonde",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dupont",
+            "beer_name": "Moinette Brune",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Rousse",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dupont",
+            "beer_name": "Monk's Stout",
+            "beer_cl": "33",
+            "beer_pourcent": "5,2",
+            "beer_type": "Stout",
+            "beer_price": "2,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Dupont",
+            "beer_name": "Triomf",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Ambree",
+            "beer_price": "3,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Ebly",
+            "beer_name": "Corne Du Bois Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "10",
+            "beer_type": "Blonde",
+            "beer_price": "4,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Echasse",
+            "beer_name": "Houppe",
+            "beer_cl": "75",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "12,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Echasse",
+            "beer_name": "Felicien",
+            "beer_cl": "-",
+            "beer_pourcent": "-",
+            "beer_type": "-",
+            "beer_price": "6,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Echasse",
+            "beer_name": "Jambes en l'air",
+            "beer_cl": "33",
+            "beer_pourcent": "4,8",
+            "beer_type": "Blonde",
+            "beer_price": "4,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Elfique",
+            "beer_name": "Elfique",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Ambree",
+            "beer_price": "4,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Emelisse",
+            "beer_name": "Emelisse Dubbel Ipa",
+            "beer_cl": "33",
+            "beer_pourcent": "7,9",
+            "beer_type": "Blonde",
+            "beer_price": "7,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "En Stoemelings",
+            "beer_name": "Noirolle",
+            "beer_cl": "33",
+            "beer_pourcent": "-",
+            "beer_type": "Porter",
+            "beer_price": "4,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "En Stoemelings",
+            "beer_name": "Curieuse Neus",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Enigma",
+            "beer_name": "Ragnaroc",
+            "beer_cl": "33",
+            "beer_pourcent": "5,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Enigma",
+            "beer_name": "Black Fuel",
+            "beer_cl": "33",
+            "beer_pourcent": "9,5",
+            "beer_type": "Noire",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Enigma",
+            "beer_name": "Tamera Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "5,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Enigma",
+            "beer_name": "Lupuline Monster IPA",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "-",
+            "beer_price": "4,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Ermitage",
+            "beer_name": "Lanterne",
+            "beer_cl": "33",
+            "beer_pourcent": "5,5",
+            "beer_type": "Blonde",
+            "beer_price": "5,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Ermitage",
+            "beer_name": "Théorème de l'empereur",
+            "beer_cl": "33",
+            "beer_pourcent": "6,4",
+            "beer_type": "Blonde",
+            "beer_price": "5,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Fantome",
+            "beer_name": "Fantome saison",
+            "beer_cl": "75",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "10,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Fantome",
+            "beer_name": "Dark white",
+            "beer_cl": "75",
+            "beer_pourcent": "4,5",
+            "beer_type": "Blonde",
+            "beer_price": "12,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Fantome",
+            "beer_name": "Dalmatienne",
+            "beer_cl": "75",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "12,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Floreffe",
+            "beer_name": "Floreffe",
+            "beer_cl": "33",
+            "beer_pourcent": "6,3",
+            "beer_type": "Blonde",
+            "beer_price": "2,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Floreffe",
+            "beer_name": "Floreffe Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Flying Dog",
+            "beer_name": "Flying Dog Raging Bitch",
+            "beer_cl": "33",
+            "beer_pourcent": "8,3",
+            "beer_type": "Blonde",
+            "beer_price": "6,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Fou du Roi",
+            "beer_name": "Galipette",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Fou du Roi",
+            "beer_name": "Galipette Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "8,8",
+            "beer_type": "Blonde",
+            "beer_price": "5,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Gengoulf",
+            "beer_name": "Gengoulf",
+            "beer_cl": "33",
+            "beer_pourcent": "6,1",
+            "beer_type": "Blonde",
+            "beer_price": "4,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Grain d'Orge",
+            "beer_name": "Aubel Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "4,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Grain d'Orge",
+            "beer_name": "Blanche Canaille",
+            "beer_cl": "33",
+            "beer_pourcent": "5,4",
+            "beer_type": "Blanche",
+            "beer_price": "3,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Hedonis",
+            "beer_name": "Ouwen Duiker",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "4,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Hedonis",
+            "beer_name": "Excuse-me while I kiss my stout",
+            "beer_cl": "33",
+            "beer_pourcent": "9,5",
+            "beer_type": "Impérial Stout",
+            "beer_price": "5,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Het Anker",
+            "beer_name": "Carolus D'or Ambree",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Ambree",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Het Anker",
+            "beer_name": "Carolus D'or Classique",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Brune",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Het Anker",
+            "beer_name": "Carolus Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Huyghe",
+            "beer_name": "Averbode",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Huyghe",
+            "beer_name": "Blanche Des Neiges",
+            "beer_cl": "33",
+            "beer_pourcent": "5",
+            "beer_type": "Blanche",
+            "beer_price": "2,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Huyghe",
+            "beer_name": "Delirium Nocturnum",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Brune",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Huyghe",
+            "beer_name": "Delirium Tremens",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Huyghe",
+            "beer_name": "Poiluchette",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Huyghe",
+            "beer_name": "St Idesbald Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Huyghe",
+            "beer_name": "Floris Fraises",
+            "beer_cl": "33",
+            "beer_pourcent": "3",
+            "beer_type": "Fruitée",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Jandrain Jandrenouille",
+            "beer_name": "V Cense",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Ambree",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Jandrain Jandrenouille",
+            "beer_name": "Vi Wheat",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blanche",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Jandrain Jandrenouille",
+            "beer_name": "Barnab",
+            "beer_cl": "75",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "10,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "John Martin",
+            "beer_name": "Waterloo Récolte",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blanche",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "John Martin",
+            "beer_name": "John Martin IPA",
+            "beer_cl": "33",
+            "beer_pourcent": "6,9",
+            "beer_type": "Ambree",
+            "beer_price": "4,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "John Martin",
+            "beer_name": "Gordon",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Scotch",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Kerkom",
+            "beer_name": "Hop Verdomme IPA",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "3,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Lefebvre",
+            "beer_name": "Barbar",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "3,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Lefebvre",
+            "beer_name": "Hopus",
+            "beer_cl": "33",
+            "beer_pourcent": "8,3",
+            "beer_type": "Blonde",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Legendes",
+            "beer_name": "Ducassis",
+            "beer_cl": "33",
+            "beer_pourcent": "3",
+            "beer_type": "Fruitee",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Legendes",
+            "beer_name": "Goliath Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "3,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Legendes",
+            "beer_name": "Gouyasse",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "3,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Legendes",
+            "beer_name": "Hercule",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Stout",
+            "beer_price": "5,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Legendes",
+            "beer_name": "Quitine Bio-Organique",
+            "beer_cl": "33",
+            "beer_pourcent": "5,9",
+            "beer_type": "Blonde",
+            "beer_price": "4,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Legendes",
+            "beer_name": "Quintine",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "4,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Legendes",
+            "beer_name": "Saison Voisin",
+            "beer_cl": "33",
+            "beer_pourcent": "5",
+            "beer_type": "Ambree",
+            "beer_price": "2,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Legendes",
+            "beer_name": "Harmony",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "3,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Les Fleurs du Malt",
+            "beer_name": "Korus",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "5,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Lesse",
+            "beer_name": "Cambree",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Ambree",
+            "beer_price": "3,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Lesse",
+            "beer_name": "Chinette",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "3,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Lesse",
+            "beer_name": "Esprit Triple's",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Lesse",
+            "beer_name": "Marie Blanche",
+            "beer_cl": "33",
+            "beer_pourcent": "5",
+            "beer_type": "Blanche",
+            "beer_price": "3,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Leval-Trahegnies",
+            "beer_name": "Imperatrice Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Liefman's",
+            "beer_name": "Gourdenband",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Brune",
+            "beer_price": "5,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Liefman's",
+            "beer_name": "Yell'oh",
+            "beer_cl": "25",
+            "beer_pourcent": "3,8",
+            "beer_type": "Fruitee",
+            "beer_price": "3,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Lupulus",
+            "beer_name": "Lupulus Organicus bio",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "4,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Lupulus",
+            "beer_name": "Lupulus Blanche",
+            "beer_cl": "33",
+            "beer_pourcent": "4,5",
+            "beer_type": "Blanche",
+            "beer_price": "3,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Lupulus",
+            "beer_name": "Lupulus Horeca",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Ambree",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Marsinne",
+            "beer_name": "Leopold 7",
+            "beer_cl": "33",
+            "beer_pourcent": "6,2",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Millevertus",
+            "beer_name": "Blanche De Gaume",
+            "beer_cl": "33",
+            "beer_pourcent": "5",
+            "beer_type": "Blanche",
+            "beer_price": "4,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Millevertus",
+            "beer_name": "IPA Potame",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Millevertus",
+            "beer_name": "Mere Vertus",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Ambree",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Millevertus",
+            "beer_name": "Bella Mere",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Millevertus",
+            "beer_name": "Petite Vertu",
+            "beer_cl": "33",
+            "beer_pourcent": "4,7",
+            "beer_type": "Rousse",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Minne",
+            "beer_name": "Ardenne Rouge",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Soir ale",
+            "beer_price": "5,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Minne",
+            "beer_name": "Ardenne Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "5,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Minne",
+            "beer_name": "Ardenne Saison",
+            "beer_cl": "33",
+            "beer_pourcent": "5,5",
+            "beer_type": "Blonde",
+            "beer_price": "5,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Minne",
+            "beer_name": "Ardenne Stout",
+            "beer_cl": "33",
+            "beer_pourcent": "10",
+            "beer_type": "Stout",
+            "beer_price": "7,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Minne",
+            "beer_name": "Trouffette Blonde",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "5,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Minne",
+            "beer_name": "Trouffette Belle D'ete",
+            "beer_cl": "75",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "12,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Minne",
+            "beer_name": "Trouffette Rousse",
+            "beer_cl": "75",
+            "beer_pourcent": "7,8",
+            "beer_type": "Rousse",
+            "beer_price": "12,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Mobius Project",
+            "beer_name": "Mobius Beer Dry Hopping",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Moortgat",
+            "beer_name": "Duvel Triple Hop",
+            "beer_cl": "33",
+            "beer_pourcent": "9,5",
+            "beer_type": "Blonde",
+            "beer_price": "5,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Moortgat",
+            "beer_name": "Duvel",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Moortgat",
+            "beer_name": "Duvel Verte",
+            "beer_cl": "25",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "3,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Koningshoeven",
+            "beer_name": "Trappe Blonde",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Koningshoeven",
+            "beer_name": "Trappe Double",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Brune",
+            "beer_price": "3,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Koningshoeven",
+            "beer_name": "Trappe Isid'or",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Ambree",
+            "beer_price": "3,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Koningshoeven",
+            "beer_name": "Trappe Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "3,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Koningshoeven",
+            "beer_name": "Trappe Witte",
+            "beer_cl": "33",
+            "beer_pourcent": "5,5",
+            "beer_type": "Blanche",
+            "beer_price": "2,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Koningshoeven",
+            "beer_name": "Trappe Quadrupple",
+            "beer_cl": "33",
+            "beer_pourcent": "10",
+            "beer_type": "Ambree",
+            "beer_price": "4,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Saint Benoit",
+            "beer_name": "Achel",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "5,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Scourmont",
+            "beer_name": "Chimay Blanche",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "3,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Scourmont",
+            "beer_name": "Chimay Bleue",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Brune",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Scourmont",
+            "beer_name": "Chimay Rouge",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Rousse",
+            "beer_price": "3,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Scourmont",
+            "beer_name": "Chimay Grande Reserve *vieillie en fûts de Cognac",
+            "beer_cl": "75",
+            "beer_pourcent": "10,5",
+            "beer_type": "Brune",
+            "beer_price": "32,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Scourmont",
+            "beer_name": "Chimay Grande Reserve *vieillie en fûts de Rhum",
+            "beer_cl": "75",
+            "beer_pourcent": "10,5",
+            "beer_type": "Brune",
+            "beer_price": "35,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de Scourmont",
+            "beer_name": "Chimay Grande Reserve *vieillie en fûts de Whisky",
+            "beer_cl": "75",
+            "beer_pourcent": "10,5",
+            "beer_type": "Brune",
+            "beer_price": "36,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de St Remy",
+            "beer_name": "Rochefort 10°",
+            "beer_cl": "33",
+            "beer_pourcent": "11,3",
+            "beer_type": "Brune",
+            "beer_price": "5,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame de St Remy",
+            "beer_name": "Rochefort 8°",
+            "beer_cl": "33",
+            "beer_pourcent": "9,2",
+            "beer_type": "Brune",
+            "beer_price": "4,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame du Sacre Coeur",
+            "beer_name": "Weshmalle Extra",
+            "beer_cl": "33",
+            "beer_pourcent": "4,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame du Sacre Coeur",
+            "beer_name": "Weshmalle Double",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Brune",
+            "beer_price": "3,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Notre Dame du Sacre Coeur",
+            "beer_name": "Weshmalle Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "9,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Novabirra",
+            "beer_name": "Big Mama",
+            "beer_cl": "33",
+            "beer_pourcent": "6,2",
+            "beer_type": "Stout",
+            "beer_price": "6,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Novabirra",
+            "beer_name": "Big Nose",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "5,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Novabirra",
+            "beer_name": "Holy IPA",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "5,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Abbaye Notre Dame d'Orval",
+            "beer_name": "Orval",
+            "beer_cl": "33",
+            "beer_pourcent": "6,2",
+            "beer_type": "Ambree",
+            "beer_price": "5,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Abbaye Notre Dame d'Orval",
+            "beer_name": "Orval Vieux",
+            "beer_cl": "33",
+            "beer_pourcent": "6,2",
+            "beer_type": "Ambree",
+            "beer_price": "6,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Palm",
+            "beer_name": "Cornet",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Pays-Noir",
+            "beer_name": "Cornet",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "4,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Pays-Noir",
+            "beer_name": "Cornet",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Brune",
+            "beer_price": "4,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Pieddebiche",
+            "beer_name": "Bière Tombale, La der' des der'",
+            "beer_cl": "33",
+            "beer_pourcent": "9,5",
+            "beer_type": "Ambree",
+            "beer_price": "5,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Pils and Love",
+            "beer_name": "Pils'n Love Extra",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Pils and Love",
+            "beer_name": "Pansarde",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Brune",
+            "beer_price": "4,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Plan B",
+            "beer_name": "Bisous M'chou",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Plan B",
+            "beer_name": "Monkita",
+            "beer_cl": "33",
+            "beer_pourcent": "-",
+            "beer_type": "Fruitée",
+            "beer_price": "4,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Queue De Charrue",
+            "beer_name": "Queue De Charrue",
+            "beer_cl": "33",
+            "beer_pourcent": "6,6",
+            "beer_type": "Blonde",
+            "beer_price": "3,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Queue De Charrue",
+            "beer_name": "Queue De Charrue Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "3,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Ramee",
+            "beer_name": "Ramee",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Ambree",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Ramee",
+            "beer_name": "Ramee",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Rulles",
+            "beer_name": "Cre Tonnerre",
+            "beer_cl": "75",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "12,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Rulles",
+            "beer_name": "Rulles Blonde",
+            "beer_cl": "75",
+            "beer_pourcent": "7",
+            "beer_type": "Blonde",
+            "beer_price": "11,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Rulles",
+            "beer_name": "Rulles Brune",
+            "beer_cl": "75",
+            "beer_pourcent": "6,5",
+            "beer_type": "Brune",
+            "beer_price": "11,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Rulles",
+            "beer_name": "Rulles Estivale",
+            "beer_cl": "75",
+            "beer_pourcent": "5,2",
+            "beer_type": "Blonde",
+            "beer_price": "11,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Rulles",
+            "beer_name": "Rulles Houblon Sauvage",
+            "beer_cl": "75",
+            "beer_pourcent": "4,9",
+            "beer_type": "Blonde",
+            "beer_price": "12,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Rulles",
+            "beer_name": "Rulles La Grande 10",
+            "beer_cl": "75",
+            "beer_pourcent": "10",
+            "beer_type": "Blonde",
+            "beer_price": "16,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Rulles",
+            "beer_name": "Rulles Triple",
+            "beer_cl": "75",
+            "beer_pourcent": "8,4",
+            "beer_type": "Blonde",
+            "beer_price": "12,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Semois",
+            "beer_name": "Petite Frangine",
+            "beer_cl": "33",
+            "beer_pourcent": "4,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Senne",
+            "beer_name": "Brusseleir",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Noire",
+            "beer_price": "4,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Senne",
+            "beer_name": "Brothers In Farms",
+            "beer_cl": "33",
+            "beer_pourcent": "6,3",
+            "beer_type": "Blonde",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Senne",
+            "beer_name": "Bruxellensis",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Ambree",
+            "beer_price": "4,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Senne",
+            "beer_name": "Jambes de Bois",
+            "beer_cl": "33",
+            "beer_pourcent": "4,60",
+            "beer_type": "Blonde",
+            "beer_price": "4,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Senne",
+            "beer_name": "Stouterik",
+            "beer_cl": "33",
+            "beer_pourcent": "5",
+            "beer_type": "Stout",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Senne",
+            "beer_name": "Taras Boulba",
+            "beer_cl": "33",
+            "beer_pourcent": "4,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Senne",
+            "beer_name": "Zinnebir",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "3,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Silly",
+            "beer_name": "Pink Killer",
+            "beer_cl": "25",
+            "beer_pourcent": "4,7",
+            "beer_type": "Fruitee",
+            "beer_price": "2,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Silly",
+            "beer_name": "Double Enghien",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Silly",
+            "beer_name": "Silly Rouge",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Fruitee",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Silly",
+            "beer_name": "Silly Triple Swaf",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "4,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Silly",
+            "beer_name": "Scotch",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Scotch",
+            "beer_price": "3,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Siphon",
+            "beer_name": "Blinker",
+            "beer_cl": "33",
+            "beer_pourcent": "5,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Siphon",
+            "beer_name": "Cassandra",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Stout",
+            "beer_price": "5,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Siphon",
+            "beer_name": "Damme Nation IPA",
+            "beer_cl": "33",
+            "beer_pourcent": "7",
+            "beer_type": "Ambree",
+            "beer_price": "5,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Slaghmuylder",
+            "beer_name": "Witkap Stimulo",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "3,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Slaghmuylder",
+            "beer_name": "Witkap Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "St Bernardus",
+            "beer_name": "St Bernadus Abt 12°",
+            "beer_cl": "33",
+            "beer_pourcent": "10,5",
+            "beer_type": "Brune",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "St Bernardus",
+            "beer_name": "St Bernadus Pater 6°",
+            "beer_cl": "33",
+            "beer_pourcent": "6,7",
+            "beer_type": "Brune",
+            "beer_price": "2,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "St Bernardus",
+            "beer_name": "St Bernadus Prior",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Brune",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "St Bernardus",
+            "beer_name": "St Bernadus Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "St Feuillien",
+            "beer_name": "St Feuillien Grand Cru",
+            "beer_cl": "33",
+            "beer_pourcent": "9,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "St Feuillien",
+            "beer_name": "St Feuillien Grisette Sans Gluten",
+            "beer_cl": "25",
+            "beer_pourcent": "5,5",
+            "beer_type": "Blonde",
+            "beer_price": "2,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "St Feuillien",
+            "beer_name": "St Feuillien Saison",
+            "beer_cl": "33",
+            "beer_pourcent": "6,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "St Feuillien",
+            "beer_name": "St Feuillien Triple",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Sainte Helene",
+            "beer_name": "Black Mamba",
+            "beer_cl": "33",
+            "beer_pourcent": "4,5",
+            "beer_type": "Noire",
+            "beer_price": "4,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Sainte Helene",
+            "beer_name": "Grognarde",
+            "beer_cl": "33",
+            "beer_pourcent": "5,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Sainte Helene",
+            "beer_name": "Gypsy Rose",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Blonde",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Tartaruga",
+            "beer_name": "Sunny Baia",
+            "beer_cl": "33",
+            "beer_pourcent": "4,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Tartaruga",
+            "beer_name": "Super Fresca",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "5,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Tartaruga",
+            "beer_name": "Sweet Alma",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "5,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Tartaruga",
+            "beer_name": "Caffé Morena",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Porter",
+            "beer_price": "5,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Tchets",
+            "beer_name": "La Chatte",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "4,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "The Musketeers",
+            "beer_name": "Troubadour Magma Classique",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Ambree",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "The Musketeers",
+            "beer_name": "Jack's precious IPA",
+            "beer_cl": "33",
+            "beer_pourcent": "5,9",
+            "beer_type": "Blonde",
+            "beer_price": "3,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Tilquin",
+            "beer_name": "Tilquin Quetsche",
+            "beer_cl": "37,5",
+            "beer_pourcent": "6,4",
+            "beer_type": "Lambic",
+            "beer_price": "15,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Timmermans",
+            "beer_name": "Faro",
+            "beer_cl": "37,5",
+            "beer_pourcent": "3,5",
+            "beer_type": "Faro",
+            "beer_price": "5,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Timmermans",
+            "beer_name": "Oude Gueuze",
+            "beer_cl": "37,5",
+            "beer_pourcent": "5,5",
+            "beer_type": "Gueuze",
+            "beer_price": "7,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Timmermans",
+            "beer_name": "Timmerman's Blanche",
+            "beer_cl": "37,5",
+            "beer_pourcent": "4,5",
+            "beer_type": "Lambic",
+            "beer_price": "4,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Tre Fontane",
+            "beer_name": "Tre Fontane Trappista Italiana",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "10,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Val-Dieu",
+            "beer_name": "Cuvee 800",
+            "beer_cl": "33",
+            "beer_pourcent": "5,5",
+            "beer_type": "Blonde",
+            "beer_price": "4,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Val-Dieu",
+            "beer_name": "Val Dieu Blonde",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Val-Dieu",
+            "beer_name": "Val Dieu Brune",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Brune",
+            "beer_price": "4,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Valducthor",
+            "beer_name": "Valduc Rio",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "4,10",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Van Eecke",
+            "beer_name": "Hommelbier",
+            "beer_cl": "25",
+            "beer_pourcent": "7,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Van Honsebrouvk",
+            "beer_name": "Filou",
+            "beer_cl": "33",
+            "beer_pourcent": "8,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,20",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Van Steenberge",
+            "beer_name": "Gulden Draak",
+            "beer_cl": "33",
+            "beer_pourcent": "10,5",
+            "beer_type": "Brune",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Van Steenberge",
+            "beer_name": "Gulden Draak 9000 Quadrupple",
+            "beer_cl": "33",
+            "beer_pourcent": "10,5",
+            "beer_type": "Ambree",
+            "beer_price": "4,80",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Van Steenberge",
+            "beer_name": "Piraat 3 Triple Hop",
+            "beer_cl": "33",
+            "beer_pourcent": "10,5",
+            "beer_type": "Blonde",
+            "beer_price": "5,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Vanderghinste",
+            "beer_name": "Omer",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "3,30",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Vanderghinste",
+            "beer_name": "Oud Bruin",
+            "beer_cl": "25",
+            "beer_pourcent": "5,5",
+            "beer_type": "Brune",
+            "beer_price": "2,70",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Vapeur",
+            "beer_name": "Vapeur Cochonne",
+            "beer_cl": "33",
+            "beer_pourcent": "9",
+            "beer_type": "Ambree",
+            "beer_price": "4,00",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Vedett",
+            "beer_name": "Vedett",
+            "beer_cl": "33",
+            "beer_pourcent": "-",
+            "beer_type": "Blonde",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Vedett",
+            "beer_name": "Vedett IPA",
+            "beer_cl": "33",
+            "beer_pourcent": "-",
+            "beer_type": "Blonde",
+            "beer_price": "3,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Vedett",
+            "beer_name": "Vedett Session",
+            "beer_cl": "33",
+            "beer_pourcent": "-",
+            "beer_type": "Blonde",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Vedett",
+            "beer_name": "Vedett",
+            "beer_cl": "33",
+            "beer_pourcent": "-",
+            "beer_type": "Blanche",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Verhaeghe",
+            "beer_name": "Barbe D'Or",
+            "beer_cl": "33",
+            "beer_pourcent": "7,5",
+            "beer_type": "Blonde",
+            "beer_price": "3,50",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Verhaeghe",
+            "beer_name": "Barbe Rubis",
+            "beer_cl": "33",
+            "beer_pourcent": "7,7",
+            "beer_type": "Fruitee",
+            "beer_price": "4,40",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Verstraete",
+            "beer_name": "Papegaei",
+            "beer_cl": "33",
+            "beer_pourcent": "8",
+            "beer_type": "Blonde",
+            "beer_price": "4,60",
+            "beer_tasted": false
+        },
+        {
+            "beer_brewery": "Vliegende Praad",
+            "beer_name": "Prearis",
+            "beer_cl": "33",
+            "beer_pourcent": "6",
+            "beer_type": "Blonde",
+            "beer_price": "3,90",
+            "beer_tasted": false
+        }
+        
+    ]
+}
