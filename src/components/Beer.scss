@@ -14,38 +14,33 @@ $black: #000;
   background-color: white;
   overflow: hidden;
   border-radius: 1px;
-  box-shadow: 2px 2px 20px #EAEAEA;
-  width: calc(50% -  45px);
+  box-shadow: 2px 2px 20px #eaeaea;
+  width: calc(50% - 45px);
   width: 100%;
   margin-bottom: 20px;
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
   // &:nth-child(odd){
   //   margin-right: 10px;
   // }
- 
-  
+
   h3 {
-      
-     margin: 0px 0px;
-      font-size: 1rem;
-      z-index: 3;
-      color: $gray;
-     
-    }
-    p {
-      font-size: .85rem;
-      margin: 0px 0px 8px;
-      z-index: 3;
-      position: relative;
-    }
-    svg {
+    margin: 0px 0px;
+    font-size: 1rem;
+    z-index: 3;
+    color: $gray;
+  }
+  p {
+    font-size: 0.85rem;
+    margin: 0px 0px 8px;
+    z-index: 3;
+    position: relative;
+  }
+  img {
     position: relative;
     display: inline-block;
-    
-
     width: 20px;
-     z-index: 3;
-    
+    height: 20px;
+    z-index: 3;
   }
   .tastedBox {
     display: flex;
@@ -54,25 +49,23 @@ $black: #000;
   span {
     display: inline-block;
     margin-left: 8px;
-    opacity: .3;
+    opacity: 0.3;
     color: $gray;
   }
-
 }
 
 .beers__list__el--active {
   &:before {
-    transform: scale(0.96, 0.90);
+    transform: scale(0.96, 0.9);
     transform-origin: center center;
   }
   h3 {
     text-decoration: line-through;
- 
+
     color: #5f6caf;
   }
 
   span {
     opacity: 1;
   }
-  
 }
