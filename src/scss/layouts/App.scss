@@ -1,0 +1,90 @@
+
+
+
+.beers__list {
+  padding: 0;
+  margin: 26px 0px;
+  list-style: none;
+}
+
+
+.section__login {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  
+
+  .login__centered {
+    width: 80%;
+    max-width: 220px;
+    @extend .centerxy;
+    z-index: 2;
+    h2, h3 {
+      text-align: center;
+      color: #F2F3F3;
+    }
+    .connexion__info__logo {
+      display: block;
+      width: 90%;
+      max-width: 300px;
+      height: auto;
+      margin: 0 auto;
+    }
+    form {
+      width: 100%;
+      margin-top: 24px;
+      input {
+        display: block;
+        width: 100%;
+        border: none;
+      
+        border-radius: 2px;
+        padding: 9px 0px;
+        margin: 16px 0px;
+        
+      
+        text-align: center;
+
+        font-size: 16px;
+        
+        font-weight: 400;
+        color: $gray;
+        outline: none;
+        background-color: #F2F3F3;
+
+      }
+      ::placeholder {
+        color: rgba($gray, .3);
+      }
+      
+    }
+  }
+}
+
+
+.welcome {
+  width: 80%;
+  max-width: 320;
+  margin: 0 auto;
+  .btn {
+    margin-top: 16px;
+  
+  }
+}
+
+.section__beers {
+  padding: 60px 0px;
+  .beers__list {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+
+  }
+}
+
+

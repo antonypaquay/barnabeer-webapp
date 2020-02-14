@@ -43,7 +43,7 @@ class Connexion extends Component {
                   placeholder="Nom d'utilisateur"
                   onChange={this.handleChange}
                 />
-                <button className="btn" type="submit">
+                <button type="submit">
                   Se connecter
                 </button>
               </form>

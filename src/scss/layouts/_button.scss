@@ -1,0 +1,40 @@
+button {
+  display: block;
+  width: 100%;
+  padding: 14px 10px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background-color: $color-3;
+  font-size: 1rem;
+  font-weight: 700;
+  color: $white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover,
+  &:focus {
+    background-color: $color-4 !important;
+  }
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 14px 0px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background-color: $color-1;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: $gray;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover,
+  &:focus {
+    background-color: $color-2 !important;
+    color: $white;
+  }
+}

@@ -18,10 +18,10 @@ const Login = ({ authenticate, user }) => {
               Cette application utilise l'authentication Oauth via facebook afin de
               récueillir des données relatives à votre profil utilisateur.
             </p>
-            <button onClick={authenticate} className="btn">
+            <button onClick={authenticate}>
               Me connecter avec facebook
             </button>
-            <Link className="btn__secondary" to="/">
+            <Link className="btn btn__secondary" to="/">
               Changer d'utilisateur
             </Link>
           </div>
