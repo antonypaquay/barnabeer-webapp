@@ -1,7 +1,13 @@
 import React, { Component, Fragment } from "react";
-import Beer from "./components/Beer";
+import Beer from "../components/Beer";
 
 class List extends Component {
+  componentDidMount() {
+    const addBeerOnce = this.props.addBeerList;
+    if (Object.keys(this.props.beers).length === 0) {
+      addBeerOnce();
+    }
+  }
 
   render() {
     const beers = Object.keys(this.props.beers).map((key, index) => {
@@ -17,7 +23,7 @@ class List extends Component {
       return (
         <Beer
           beers={this.props.beers}
-          key={key}
+          key={key + ` - ${beer_name}`}
           id={key}
           beerTasted={beer_tasted}
           isTasted={this.props.isTasted}
@@ -29,24 +35,9 @@ class List extends Component {
         />
       );
     });
-    const welcome = (
-      <div className="welcome">
-        <h2>Bonjour {this.props.user}</h2>
-        <p>
-          Bienvenue sur la nouvelle app du Barnabeer, celle-ci te permettra de
-          découvrir nos produits ainsi qu'indiquer ceux que tu as déjà dégusté
-          et bien plus encore! Alors tu es près à découvrir l'expérience
-          Barnabeer?
-        </p>
-        <button className="btn" >
-          Afficher les bières!
-        </button>
-      </div>
-    );
 
     return (
       <Fragment>
-        {this.props.beers.length !== 0 ? null : welcome}
         <ul className="beers__list">{beers}</ul>
       </Fragment>
     );

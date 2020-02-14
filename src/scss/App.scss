@@ -1,58 +1,5 @@
 
 
-$muli: 'Muli', sans-serif;
-
-
-$yellow: #F2B711;
-$braun-dark: #5f6caf;
-$braun-light: #d8d1af;
-$white: #edf7fa;
-$gray: #212121;
-$black: #000;
-
-$color-1: #edf7fa;
-$color-2: #5f6caf;
-$color-3: #ffb677;
-$color-4: #ff8364;
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  color: $black;
-  font-family: $muli, sans-serif;
-}
-
-h2 {
-  color: $black;
-  font-size: 1.2em;
-  font-weight: 400;
-  font-style: italic;
-  span{
-    color: $braun-dark;
-    font-weight: 700;
-  }
-}
-
-h3 {
-  font-style: italic;
-  font-size: 1.03em;
-  font-weight: 400;
-  color: $black;
-}
-
-p{
-  font-size: 1rem;
-  font-weight: 300;
-  color: $gray;
-  line-height: 20px;
-}
-
-
-.wrapper {
-  width: calc(100% - 40px);
-  margin: 0 auto;
-}
 
 .beers__list {
   padding: 0;
@@ -71,11 +18,8 @@ p{
   .login__centered {
     width: 80%;
     max-width: 220px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    @extend .centerxy;
     z-index: 2;
-    transform: translate(-50%, -50%);
     h2, h3 {
       text-align: center;
       color: #F2F3F3;
@@ -96,7 +40,7 @@ p{
         border: none;
       
         border-radius: 2px;
-        padding: 8px 0px;
+        padding: 9px 0px;
         margin: 16px 0px;
         
       
@@ -107,7 +51,7 @@ p{
         font-weight: 400;
         color: $gray;
         outline: none;
-        background-color: rgba(white, .8);
+        background-color: #F2F3F3;
 
       }
       ::placeholder {
@@ -187,14 +131,14 @@ p{
   outline: none;
   border-radius: 2px;
   background-color: $gray;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   color: $white;
   cursor: pointer;
   transition: all .3s ease-in-out;
   &:hover {
     background-color: $black;
-    color: $braun-dark;
+    color: $color-2;
     
   }
 }
@@ -211,14 +155,14 @@ p{
   letter-spacing: .6px;
   font-weight: 400;
   font-style: italic;
-  color: $braun-dark;
+  color: $color-2;
   text-decoration: none;
   text-align: center;
   cursor: pointer;
   transition: all .3s ease-in-out;
   &:hover {
     background-color: $black;
-    color: $braun-dark;
+    color: $color-2;
   }
 }
 
@@ -230,10 +174,13 @@ footer {
   background-color: rgba($gray, .5);
   z-index: 10;
   small {
-    color: $braun-dark;
+    color: $color-2;
     font-size: 12px;
     text-align: center;
     display: block;
   }
 }
 
+button {
+  font-size: 1rem;
+}

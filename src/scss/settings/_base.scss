@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: $black;
+  font-family: $muli, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}

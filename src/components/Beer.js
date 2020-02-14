@@ -24,13 +24,8 @@ class Beer extends Component {
           <li className="beers__list__el beers__list__el--active">
             <h3 className="beer__name">{beerName}</h3>
             <p className="beer__price">{beerPrice} €</p>
-            <div className="tastedBox">
-              <img
-                src={heartFilled}
-                className="tasted"
-                onClick={e => this.handleClick(e, key)}
-                alt="filled heart"
-              />
+            <div className="tastedBox" onClick={e => this.handleClick(e, key)}>
+              <img src={heartFilled} className="tasted" alt="filled heart" />
               <span>Déjà dégusté 🍺!</span>
             </div>
           </li>
@@ -42,13 +37,8 @@ class Beer extends Component {
           <li className="beers__list__el">
             <h3 className="beer__name">{beerName}</h3>
             <p className="beer__price">{beerPrice} €</p>
-            <div className="tastedBox">
-              <img
-                src={heart}
-                className="tasted"
-                onClick={e => this.handleClick(e, key)}
-                alt="filled heart"
-              />
+            <div className="tastedBox" onClick={e => this.handleClick(e, key)}>
+              <img src={heart} className="tasted" alt="filled heart" />
               <span>Et moi alors 😢?</span>
             </div>
           </li>

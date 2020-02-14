@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./index.scss";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import Connexion from "./components/Connexion";
-import NotFound from "./components/NotFound";
+import Connexion from "./views/Connexion";
+import NotFound from "./views/NotFound";
 
 const RouterApp = () => {
   return (

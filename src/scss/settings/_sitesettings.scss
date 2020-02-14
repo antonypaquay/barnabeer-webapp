@@ -1,0 +1,38 @@
+// Fonts
+$muli: 'Muli', sans-serif;
+
+// Colors
+$black: #000;
+$gray: #212121;
+$white: #ffffff;
+
+$color-1: #edf7fa;
+$color-2: #5f6caf;
+$color-3: #ffb677;
+$color-4: #ff8364;
+
+
+h2 {
+  color: $black;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-style: italic;
+  span{
+    color: $color-2;
+    font-weight: 700;
+  }
+}
+
+h3 {
+  font-style: italic;
+  font-size: 1.03em;
+  font-weight: 400;
+  color: $black;
+}
+
+p{
+  font-size: 1rem;
+  font-weight: 300;
+  color: $gray;
+  line-height: 20px;
+}

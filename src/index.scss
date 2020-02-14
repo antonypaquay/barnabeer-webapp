@@ -1,0 +1,11 @@
+// import tools
+@import "./scss/tools/normalize";
+@import "./scss/tools/reset";
+// import settings
+@import "./scss/settings/breakpoints";
+@import "./scss/settings/sitesettings";
+@import "./scss/settings/mixins";
+@import "./scss/settings/base";
+
+@import './scss/App.scss';
+@import "./components/BottomNav.scss";

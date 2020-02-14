@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import { Redirect } from "react-router-dom";
-import barnabeerLogo from "../img/barnabeer-logo-full.png";
+import barnabeerLogo from "../assets/img/barnabeer-logo-full.png";
 
 
 class Connexion extends Component {

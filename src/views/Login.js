@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import facebook from "../img/facebook.png"
+import facebook from "../assets/img/facebook.png"
 
 
 const Login = ({ authenticate, user }) => {
